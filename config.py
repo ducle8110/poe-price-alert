@@ -11,16 +11,33 @@ POLL_INTERVAL = int(os.getenv("POLL_INTERVAL", "300"))
 
 # Tất cả item types trên poe.ninja
 # Currency dùng endpoint khác (currencyoverview), còn lại dùng itemoverview
-CURRENCY_TYPES = []
+CURRENCY_TYPES = [
+    "Currency",
+    "Fragment",
+]
 
-# Chỉ theo dõi Unique items
 ITEM_TYPES = [
+    # Unique items
     "UniqueWeapon",
     "UniqueArmour",
     "UniqueAccessory",
     "UniqueFlask",
     "UniqueJewel",
     "UniqueRelic",
+    # Currency-like / consumable
+    "SkillGem",
+    "DivinationCard",
+    "Oil",
+    "Incubator",
+    "Scarab",
+    "Fossil",
+    "Resonator",
+    "Essence",
+    "DeliriumOrb",
+    "Invitation",
+    "ClusterJewel",
+    "Artifact",
+    "Memory",
 ]
 
 POE_NINJA_BASE = "https://poe.ninja/api/data"
