@@ -6,7 +6,7 @@ load_dotenv()
 DISCORD_WEBHOOK_URL = os.getenv("DISCORD_WEBHOOK_URL", "")
 LEAGUE = os.getenv("LEAGUE", "Standard")
 PRICE_CHANGE_THRESHOLD = float(os.getenv("PRICE_CHANGE_THRESHOLD", "15"))
-MIN_CHAOS_VALUE = float(os.getenv("MIN_CHAOS_VALUE", "5"))
+MIN_CHAOS_VALUE = float(os.getenv("MIN_CHAOS_VALUE", "700"))
 POLL_INTERVAL = int(os.getenv("POLL_INTERVAL", "300"))
 
 # Tất cả item types trên poe.ninja

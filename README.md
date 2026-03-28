@@ -36,5 +36,5 @@ python main.py
 | `DISCORD_WEBHOOK_URL` | URL webhook Discord | (bắt buộc) |
 | `LEAGUE` | League theo dõi | Standard |
 | `PRICE_CHANGE_THRESHOLD` | Ngưỡng biến động (%) | 15 |
-| `MIN_CHAOS_VALUE` | Giá tối thiểu (chaos) | 5 |
+| `MIN_CHAOS_VALUE` | Giá tối thiểu (chaos) ~10 divine | 700 |
 | `POLL_INTERVAL` | Thời gian giữa mỗi lần check (giây) | 300 |
